@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.color-picker-container {
+  margin: 20px;
+}
+
+.colors-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.color-box p {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
